@@ -530,10 +530,33 @@ Hero styless
         width: 168px;
         height: 88px;
 }
+.li-a-customers:hover
+{
+        border-color: orange;
+}
 .li-a-customers:hover .svg-customers
 {
         fill: orange;
 }
+.ul-designer
+{
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+}
+.a-designer
+{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid var(--color3);
+      border-radius: 50%;
+
+
+        width: 16px;
+        height:16px;
+}
+
 
 
 
