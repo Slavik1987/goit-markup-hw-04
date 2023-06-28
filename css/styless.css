@@ -482,4 +482,59 @@ Hero styless
         padding-bottom: 120px;
 
  }
+ /*========icons=======*/
+
+
+ .list-icons{
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        
+ }
+ .icons-link
+ {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        width: 264px;
+        height: 112px;
+
+ }
+ 
+ .customers
+ {
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--color1);
+ }
+
+ .ul-customers
+ {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+ }
+.li-a-customers
+{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid var(--color3);
+        border-radius: ;
+
+
+        width: 168px;
+        height: 88px;
+}
+.li-a-customers:hover .svg-customers
+{
+        fill: orange;
+}
+
+
+
     
