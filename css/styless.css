@@ -9,6 +9,7 @@ Common styless
         --color3: #4d5ae5;
         --color4: #404bbf;
         --color5: #F4F4FD;
+        --grey :#8e8f99;
 }
 
 
@@ -490,6 +491,7 @@ Hero styless
         justify-content: center;
         gap: 24px;
         
+        
  }
  .icons-link
  {
@@ -499,7 +501,10 @@ Hero styless
         
         width: 264px;
         height: 112px;
-
+ }
+ .icons-svg
+ {
+        fill: currentColor;
  }
  
  .customers
@@ -510,6 +515,7 @@ Hero styless
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--color1);
+        margin-bottom: 72px;
  }
 
  .ul-customers
@@ -523,12 +529,12 @@ Hero styless
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid var(--color3);
-        border-radius: ;
+        border: 1px solid #8e8f99;
+        border-radius:4px;
 
 
-        width: 168px;
-        height: 88px;
+        width: 104px;
+        height: 56px;
 }
 .li-a-customers:hover
 {
@@ -555,6 +561,13 @@ Hero styless
 
         width: 16px;
         height:16px;
+}
+.svg-designer{
+        fill: currentColor;
+}
+.svg-customers
+{
+        fill: currentColor;
 }
 
 
