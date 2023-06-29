@@ -260,6 +260,7 @@ img
         
 }
 .div-container{
+        
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
         background-repeat: no-repeat;
         background-position: center;
@@ -282,7 +283,7 @@ Hero styless
         background-color: #f4f4fd;
         border-radius: 4px;
         margin-bottom: 8px;
-        
+
 }
 .li-strategy
 {
