@@ -255,16 +255,13 @@ img
         margin: 0px auto;
 
         max-width: 1440px;
-        
-
-        
-}
-.div-container{
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+          
 }
+
 
 /*
 ==================
@@ -321,6 +318,9 @@ Hero styless
 .li-fotopeople
 {
         background-color: #FFFFFF;
+        box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
+                0px 1px 1px rgba(46, 47, 66, 0.16),
+                0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .profession-list
 {
@@ -338,7 +338,7 @@ Hero styless
 }
 .div-name
 {
-        padding: 32px 16px;
+        padding: 32px 0;
 
 }
 .name:hover,
@@ -398,11 +398,14 @@ Hero styless
 {
         width: calc((100% - 72px) / 4);
         border-radius: 0px 0px 4px 4px;
+        width: 40px;
+        height: 40px;
 }
 .ul-fotopeople
 {
         display: flex;
         gap: 24px;
+
 }
 .team
 {
@@ -622,9 +625,11 @@ Hero styless
 {
         display: flex;
         justify-content: center;
-        
         gap: 24px;
-        
+}
+.a-designer:hover,
+.a-designer:focus{
+        background-color:var(--color4);
 }
 .a-designer
 {
@@ -633,13 +638,14 @@ Hero styless
       align-items: center;
       border: 1px solid var(--color3);
       border-radius: 50%;
+      background-color:var(--color3);
 
 
         width: 16px;
         height:16px;
 }
 .svg-designer{
-        fill: currentColor;
+        fill: var(--color5);
 }
 .svg-customers
 {
