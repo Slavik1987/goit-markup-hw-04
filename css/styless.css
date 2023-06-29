@@ -225,6 +225,8 @@ img
         background-color: #4D5AE5;
         margin: 0 auto;
 
+        background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
         display: block;
         min-width: 169px;
         height: 56px;
@@ -246,6 +248,7 @@ img
         background-color:#2e2f42 ;
         padding-top: 188px;
         padding-bottom: 188px;
+        margin: 0px auto;
 
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
         max-width: 1440px;
@@ -491,6 +494,17 @@ Hero styless
  }
  /*========icons=======*/
 
+.container-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:var(--color5);
+        border-radius: 4px;
+        margin-bottom: 8px;
+        
+
+        height: 112px;
+}
 
  .list-icons{
         display: flex;
@@ -499,15 +513,7 @@ Hero styless
         
         
  }
- .icons-link
- {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-        width: 264px;
-        height: 112px;
- }
+ 
  .icons-svg
  {
         fill: currentColor;
