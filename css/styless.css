@@ -200,6 +200,11 @@ img
 }
 
 /*===================================header*/
+.div-container{
+
+
+}
+       
 
 .button-order
 {
@@ -252,7 +257,6 @@ img
         padding-bottom: 188px;
         margin: 0px auto;
 
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
         max-width: 1440px;
         background-repeat: no-repeat;
         background-position: center;
@@ -361,7 +365,7 @@ Hero styless
 .footer-class{
         display: flex;
         align-items: baseline;
-        margin-right: 120px;
+       
         
 }
 .social{
@@ -650,6 +654,9 @@ Hero styless
 }
 .svg-social{
         fill: var(--color5);
+}
+.div-social{
+        
 }
 
 
