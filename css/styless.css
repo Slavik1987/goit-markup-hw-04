@@ -498,10 +498,10 @@ Hero styless
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color:var(--color5);
+        background-color:#f4f4fd;
         border-radius: 4px;
         margin-bottom: 8px;
-        
+        gap: 24px;
 
         height: 112px;
 }
@@ -511,12 +511,12 @@ Hero styless
         justify-content: center;
         gap: 24px;
         
-        
+ 
  }
  
  .icons-svg
  {
-        fill: currentColor;
+       
  }
  
  .customers
