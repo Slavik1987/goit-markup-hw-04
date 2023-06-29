@@ -490,7 +490,10 @@ Hero styless
  {
         padding-top: 96px;
         padding-bottom: 120px;
-
+ }
+ .section-four{
+        padding-top: 120px;
+        padding-bottom: 120px;
  }
  /*========icons=======*/
 
@@ -542,21 +545,24 @@ Hero styless
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid #8e8f99;
+        border: 1px solid var(--grey);
         border-radius:4px;
-
+        width: calc((100% - 120px) / 6);
 
         width: 104px;
-        height: 56px;
+        height: 88px;
 }
-.li-a-customers:hover
+.li-a-customers:hover,
+.li-a-customers:focus
 {
-        border-color: orange;
+        border-color:var(--color4);
+        color:var(--color4);
 }
-.li-a-customers:hover .svg-customers
-{
-        fill: orange;
+.li-customers{
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .ul-designer
 {
         display: flex;
