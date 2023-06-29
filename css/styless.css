@@ -547,7 +547,7 @@ Hero styless
         align-items: center;
         border: 1px solid;
         border-radius:4px;
-        width: calc((100% - 120px) / 6);
+        
         color:var(--grey);
 
         width: 104px;
@@ -556,10 +556,22 @@ Hero styless
 .li-a-customers:hover,
 .li-a-customers:focus
 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 168px;
+        height: 88px;
+
+
         border-color:var(--color4);
         color:var(--color4);
 }
 .li-customers{
+        
+        width: calc((100% - 120px) / 6);
+        transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      
         
 }
 
@@ -567,9 +579,9 @@ Hero styless
 {
         display: flex;
         justify-content: center;
+        
         gap: 24px;
-        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
 }
 .a-designer
 {
