@@ -345,7 +345,7 @@ Hero styless
         text-align: center;
         margin-bottom: 8px;
 }
-.div-name
+.div-members
 {
         padding: 32px 0;
         
@@ -650,8 +650,8 @@ Hero styless
       background-color:var(--color3);
 
 
-        width: 16px;
-        height:16px;
+        width: 40px;
+        height:40px;
 }
 .svg-designer{
         fill: var(--color5);
