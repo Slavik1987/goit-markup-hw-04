@@ -143,14 +143,16 @@ img
         margin-right: 40px;
         padding: 24px 0;
         gap: 40px;
+
+        position: relative;
+        color: #404bbf;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-nav
 {
         display: flex;
         align-items: center;
-        position: relative;
-        color: #404bbf;
-        transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
        
 }
 .header-container
