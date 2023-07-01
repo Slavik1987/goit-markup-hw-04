@@ -592,23 +592,22 @@ Hero styless
         display: flex;
         justify-content: center;
         gap: 24px;
-        border: 1px solid #8e8f99;
-        border-radius: 4px;
-        width: 100%;
-        height: 100%;
+
  }
 .li-a-customers
 {
         display: flex;
         justify-content: center;
         align-items: center;
-        
-        
         color:var(--grey);
-
         width: 104px;
         height: 88px;
+        border: 1px solid #8e8f99;
+        border-radius: 4px;
+        width: 100%;
+        height: 100%;
 }
+
 .li-a-customers:hover,
 .li-a-customers:focus
 {
