@@ -137,6 +137,7 @@ img
 {
        display: flex;
        align-items: center;
+       transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts
 {
@@ -418,6 +419,7 @@ Hero styless
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius:0px 0px 4px 4px;
+        background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .team
@@ -680,6 +682,7 @@ Hero styless
 .ul-social{
         display: flex;
         gap: 16px;
+        transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
        
 }
 .ul-li-social
