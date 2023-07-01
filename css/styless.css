@@ -144,9 +144,6 @@ img
         padding: 24px 0;
         gap: 40px;
 
-        position: relative;
-        color: #404bbf;
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-nav
 {
@@ -160,6 +157,9 @@ img
         display: flex;
         align-items: center;
         justify-content: space-between;
+        position: relative;
+        color: #404bbf;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header{
         box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08),
