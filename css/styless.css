@@ -270,9 +270,7 @@ img
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-          
 }
-
 
 /*
 ==================
@@ -480,7 +478,6 @@ Hero styless
         border: 1px solid #e7e9fc;
         border-top: none;
         margin-bottom: 8px;
-
 }
 .ul-img-li
 {
@@ -517,6 +514,8 @@ Hero styless
 
         padding: 12px 24px;
         border: 1px solid #e7e9fc;
+       
+
  }
 
  .button-ul
@@ -663,12 +662,13 @@ Hero styless
 .ul-social{
         display: flex;
         gap: 16px;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       
 }
 .ul-li-social
 {
         width: 40px;
         height: 40px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
 }
 .a-social{
@@ -686,21 +686,6 @@ Hero styless
 }
 .svg-social{
         fill: var(--color5);
-}
-.div-data-modal{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(46, 47, 66, 0.4);
-        transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.is-hidden{
-        opacity: 0;
-        visibility: hidden;
-        pointer-events: none;
-        
 }
 
 
