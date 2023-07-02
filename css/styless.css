@@ -466,6 +466,9 @@ Hero styless
         padding-bottom: 100px;
 }
 /*=====portfolio=====*/
+.task-p:hover{
+        transform: translateY(0%);
+}
 .task-p{
         position: absolute;
         top: 0;
