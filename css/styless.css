@@ -673,9 +673,9 @@ Hero styless
       border-radius: 50%;
       background-color:var(--color3);
 
-
         width: 40px;
         height:40px;
+        transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-designer{
         fill: var(--color5);
