@@ -466,9 +466,7 @@ Hero styless
         padding-bottom: 100px;
 }
 /*=====portfolio=====*/
-.task-p:hover{
-        transform: translateY(0%);
-}
+
 .task-p{
         position: absolute;
         top: 0;
@@ -511,6 +509,7 @@ Hero styless
         0px 1px 1px rgba(46, 47, 66, 0.16), 
         0px 2px 1px rgba(46, 47, 66, 0.08);
         transform: translateY(0%);
+        
 }
 .link-alt
 {
@@ -801,7 +800,18 @@ Hero styless
         0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 4px;
-        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);       
+
+}
+.modal-window:hover{
+        background-color: #404bbf;
+        border: none;
+        fill: #ffffff;
+}
+.modal-window:focus{
+        background-color: #404bbf;
+        border: none;
+        fill: #ffffff;
 }
 .button-modal-window{
         position: absolute;
@@ -820,17 +830,7 @@ Hero styless
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.button-modal-window:hover {
-        background-color: #404bbf;
-        border: none;
-        fill: #ffffff;
-}
 
-.button-modal-window:focus {
-        background-color: #404bbf;
-        border: none;
-        fill: #ffffff;
-}
 .svg-modal{
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
