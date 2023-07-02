@@ -510,13 +510,14 @@ Hero styless
         0px 1px 6px rgba(46, 47, 66, 0.08), 
         0px 1px 1px rgba(46, 47, 66, 0.16), 
         0px 2px 1px rgba(46, 47, 66, 0.08);
+        transform: translateY(0%);
 }
 .link-alt
 {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        transform: translateY(0%);
+        
 }
 .link-href:hover{
         box-shadow:
@@ -819,20 +820,22 @@ Hero styless
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+.button-modal-window:hover {
+        background-color: #404bbf;
+        border: none;
+        fill: #ffffff;
+}
+
+.button-modal-window:focus {
+        background-color: #404bbf;
+        border: none;
+        fill: #ffffff;
+}
 .svg-modal{
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.svg-modal:hover{
-        background-color: #404bbf;
-        border: none;
-        fill: #ffffff;
-}
-.svg-modal:focus{
-        background-color: #404bbf;
-        border: none;
-        fill: #ffffff;
-}
+
 
 
 
