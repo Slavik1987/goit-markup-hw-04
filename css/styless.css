@@ -516,6 +516,7 @@ Hero styless
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
+        transform: translateY(0%);
 }
 .link-href:hover{
         box-shadow:
@@ -822,10 +823,14 @@ Hero styless
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.svg-modal:hower{
+.svg-modal:hover{
+        background-color: #404bbf;
+        border: none;
         fill: #ffffff;
 }
 .svg-modal:focus{
+        background-color: #404bbf;
+        border: none;
         fill: #ffffff;
 }
 
