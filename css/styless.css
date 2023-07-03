@@ -804,13 +804,11 @@ Hero styless
 
 }
 .svg-modal:hover{
-        background-color: #404bbf;
-        border: none;
+
         fill: #ffffff;
 }
 .svg-modal:focus{
-        background-color: #404bbf;
-        border: none;
+
         fill: #ffffff;
 }
 .button-modal-window{
