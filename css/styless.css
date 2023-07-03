@@ -503,7 +503,7 @@ Hero styless
         color:var(--color1);
         margin-bottom: 8px;
 }
-.link-alt:hover{
+.link-alt:hover .task-p{
         box-shadow:
         0px 1px 6px rgba(46, 47, 66, 0.08), 
         0px 1px 1px rgba(46, 47, 66, 0.16), 
