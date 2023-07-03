@@ -805,9 +805,17 @@ Hero styless
         0px 1px 1px 0px rgba(0, 0, 0, 0.14);
 
 }
-.icon-modal {
+.icon-moda{
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.icon-modal:hover,
+.icon-modal:focus {
+        
         fill: #ffffff;
+        color: color;
+        border: none;
+        background-color: #404bbf;
 }
 
 .modal-buttom{
@@ -829,12 +837,6 @@ Hero styless
 }
 
 
-.modal-buttom:hover,
-.modal-buttom:focus {
-        color: color;
-        border: none;
-        background-color: #404bbf;
-}
 
 
 
