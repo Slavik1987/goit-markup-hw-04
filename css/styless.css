@@ -251,7 +251,6 @@ img
         margin: 0 auto;
 
         display: block;
-        min-width: 169px;
         height: 56px;
         border: none;
         border-radius: 4px;
@@ -519,11 +518,13 @@ Hero styless
         line-height: 1.5;
         
 }
-.link-href:hover{
+.link-href:hover .task-p,
+.link-href:focus .task-p{
         box-shadow:
         0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16), 
         0px 2px 1px rgba(46, 47, 66, 0.08);
+        transform: translateY(0%);
 }
 .link-href{
         display: block;
@@ -594,9 +595,6 @@ Hero styless
         border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
-.ul-li-button{
-        
-}
 
  .button-ul
  {
@@ -604,9 +602,8 @@ Hero styless
         justify-content: center;
         gap: 24px;
         margin-bottom: 72px;
-
         padding: 12px 24px;
-        border: 1px solid #e7e9fc;
+ 
  }
 
  .main-section
