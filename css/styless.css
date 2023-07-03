@@ -805,17 +805,8 @@ Hero styless
         0px 1px 1px 0px rgba(0, 0, 0, 0.14);
 
 }
-.icon-moda{
+.icon-modal {
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-.icon-modal:hover,
-.icon-modal:focus {
-        
-        fill: #ffffff;
-        color: color;
-        border: none;
-        background-color: #404bbf;
 }
 
 .modal-buttom{
@@ -835,8 +826,16 @@ Hero styless
         padding: 0;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.icon-modal {
+        fill: #ffffff;
+}
 
-
+.modal-buttom:hover,
+.modal-buttom:focus {
+        color: color;
+        border: none;
+        background-color: #404bbf;
+}
 
 
 
