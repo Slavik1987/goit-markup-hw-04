@@ -98,7 +98,9 @@ img
         bottom: -1px;
         
 }
-
+.li-contacts{
+        color: #404bbf;
+}
 .contacts
 {
         font-weight: 500;
