@@ -82,6 +82,7 @@ img
         background-color: #404bbf;
         border-radius: 2px;
         width: 100%;
+        bottom: -25px;
         
 }
 .link-spc:hover,
@@ -93,10 +94,7 @@ img
 .link-spc
 {
         position: relative;
-        color:var(--color4);
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        
-        
 }
 
 .contacts
@@ -249,7 +247,8 @@ img
         cursor: pointer;
         color:#ffffff;
         background-color: #4D5AE5;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
 
         display: block;
         height: 56px;
@@ -266,7 +265,9 @@ img
         letter-spacing: 0.02em;
         color:#ffffff;
         max-width: 496px;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
 }
 .hero-section
 {
@@ -391,10 +392,11 @@ Hero styless
 {
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #F4F4FD;;
+        color: #F4F4FD;
+        max-width: 264px;
 }
 .footer-class{
-        display: flex;
+
         align-items: baseline;
         margin-right: 120px;
        
@@ -690,6 +692,8 @@ Hero styless
         display: flex;
         justify-content: center;
         gap: 24px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        margin-top: 10px;
 }
 .a-designer:hover,
 .a-designer:focus{
@@ -710,12 +714,6 @@ Hero styless
 }
 .svg-designer{
         fill: var(--color5);
-}
-.ul-designer{
-        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-        border-radius: 0px 0px 4px 4px;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .svg-customers
