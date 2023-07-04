@@ -411,7 +411,8 @@ Hero styless
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--white);
-        margin-bottom: 16px
+        margin-bottom: 16px;
+        
 }
 
 .ul-fotopeople
