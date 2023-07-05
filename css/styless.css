@@ -266,9 +266,7 @@ img
 }
 .solutions 
 {
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+
         font-size: 56px;
         line-height: 1.07;
         text-align: center;
@@ -282,6 +280,9 @@ img
 }
 .hero-section
 {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
         background-color:#2e2f42 ;
         padding-top: 188px;
         padding-bottom: 188px;
