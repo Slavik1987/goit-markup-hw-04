@@ -278,14 +278,11 @@ img
         margin-bottom: 48px;
         
 }
-.section{
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-}
+
 .hero-section
 {
 
+        
         background-color:#2e2f42 ;
         padding-top: 188px;
         padding-bottom: 188px;
@@ -294,7 +291,9 @@ img
 
         max-width: 1440px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-image.jpg),url(../images/hero/Dark-bg.jpg);
-
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
 }
 .div-container{
         background-repeat: no-repeat;
