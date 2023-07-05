@@ -266,6 +266,9 @@ img
 }
 .solutions 
 {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
         font-size: 56px;
         line-height: 1.07;
         text-align: center;
@@ -288,12 +291,13 @@ img
         max-width: 1440px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-image.jpg),url(../images/hero/Dark-bg.jpg);
 
-
+}
+.div-container{
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-}
 
+}
 
 /*
 ==================
