@@ -176,8 +176,7 @@ img
         display: flex;
         align-items: center;
         justify-content: space-between;
-        
-        
+         
 }
 .header{
         box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -294,6 +293,7 @@ img
         background-position: center;
         background-size: cover;
 }
+
 
 /*
 ==================
