@@ -101,6 +101,9 @@ img
         position: relative;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         color: #2E2F42;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
 
 }
 .li-contacts{
@@ -273,6 +276,7 @@ img
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 48px;
+        
 }
 .hero-section
 {
