@@ -235,7 +235,7 @@ img
 
 .button-order
 {
-        width: 170px;
+        width: 169px;
         height: 56px;  
 }
 .button:hover,
@@ -280,7 +280,6 @@ img
 .hero-section
 {
 
-        
         background-color:#2e2f42 ;
         padding-top: 188px;
         padding-bottom: 188px;
@@ -292,12 +291,6 @@ img
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-}
-.div-container{
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-
 }
 
 /*
