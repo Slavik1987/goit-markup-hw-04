@@ -73,7 +73,7 @@ img
         background-color: #FFFFFF;
 
 }
-.active{
+.link-spc.active {
         color: #404bbf;
 }
 .link-spc.active::after{
@@ -86,7 +86,7 @@ img
         border-radius: 2px;
         width: 100%;
         top: 44px;
-    
+        color: #404bbf;
         
         
 }
